@@ -1,6 +1,6 @@
 # SSH-Remote-Machines-Manager
 
-This script helps users connect to remote machines via SSH using an easy-to-configure setup file `config.yaml`. It supports using SSH keys, executing predefined commands on the remote machine, and showing machine-specific characteristics. When you run the script, you will be presented with a list of machines from the `config.yaml` file. Each machine can include specific characteristics (such as `VRAM`, `CPU`, etc). You will need to select the machine by entering its corresponding number.
+This script helps users connect to remote machines via SSH using an easy-to-configure setup file `config.yaml`. It supports using SSH keys and showing machine-specific characteristics. When you run the script, you will be presented with a list of machines from the `config.yaml` file. Each machine can include specific characteristics (such as `VRAM`, `CPU`, etc). You will need to select the machine by entering its corresponding number.
 
 Example:
 
