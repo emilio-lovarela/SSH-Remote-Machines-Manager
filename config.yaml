@@ -4,12 +4,12 @@ machines:
     user: user2
   My_House_Raspberry:
     ip: 192.168.1.18
-    user: manolo_gambeiro
+    user: alvaro_cride
     VRAM: 64GB
     SO: Debian
   Amazon_machine_2:
     ip: 192.168.1.19
-    user: maria_chou
+    user: maria_garcia
     VRAM: 24GB
     CPU: 12 cores
     RAM: 128GB
