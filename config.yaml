@@ -1,0 +1,23 @@
+machines:
+  Machine_dummy:
+    ip: 192.168.1.20
+    user: user2
+  My_House_Raspeberry:
+    ip: 192.168.1.18
+    user: manolo_gambeiro
+    VRAM: 64GB
+    SO: Debian
+  Amazon_machine_2:
+    ip: 192.168.1.19
+    user: maria_chou
+    VRAM: 24GB
+    CPU: 12 cores
+    RAM: 128GB
+  Machine_dummy_2:
+    user:
+    GPU: NVIDIA RTX 3060
+
+options:
+  export_commands_to_machine: True # Export commands function to remote machine
+  connect_timeout: 8 # Maximum connection timeout
+  use_ssh_key: True # Use SSH key instead of password
