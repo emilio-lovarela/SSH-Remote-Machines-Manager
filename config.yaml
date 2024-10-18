@@ -2,7 +2,7 @@ machines:
   Machine_dummy:
     ip: 192.168.1.20
     user: user2
-  My_House_Raspeberry:
+  My_House_Raspberry:
     ip: 192.168.1.18
     user: manolo_gambeiro
     VRAM: 64GB
