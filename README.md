@@ -35,7 +35,7 @@ Select a machine:
 
    </td>
    <td>
-      <p align="center"> <img src="https://github.com/emilio-lovarela/SSH-Remote-Machines-Manager/blob/main/SSH_Remote_Manager_Example.png?raw=true" alt="screenshot" width="500"></p>
+      <p align="center"> <img src="https://github.com/emilio-lovarela/SSH-Remote-Machines-Manager/blob/main/SSH_Remote_Manager_Example.png?raw=true" alt="screenshot" style="width: 100%; max-width: 600px;"></p>
    </td>
 </tr>
 </table>
@@ -58,7 +58,7 @@ Before using this script, you need to install the following dependencies:
      ```
 
 - For **Windows** users:
-     - **WSL (Windows Subsystem for Linux)**: Required for running `script_windows_wsl_users/connect_to_machines.bat`
+     - **WSL (Windows Subsystem for Linux)**: Required for running the script.
      - Once WSL is installed, make sure to install **PyYAML** and **jq** within the WSL environment.
      
      To install WSL, open a PowerShell terminal as administrator and execute:
