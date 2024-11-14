@@ -6,18 +6,18 @@ machines:
     ip: 192.168.1.18
     user: alvaro_cride
     VRAM: 64GB
-    SO: Debian
+    OS: Debian
+    ProxyJump:
+      ip: 192.168.1.67
+      user: m.lorial
   Amazon_machine_2:
     ip: 192.168.1.19
     user: maria_garcia
     VRAM: 24GB
     CPU: 12 cores
     RAM: 128GB
-  Machine_dummy_2:
-    user:
-    GPU: NVIDIA RTX 3060
 
 options:
-  export_commands_to_machine: True # Export commands function to remote machine
-  connect_timeout: 8 # Maximum connection timeout
-  use_ssh_key: True # Use SSH key instead of password
+  export_commands_to_machine: True  # Export commands function to remote machine
+  connect_timeout: 8  # Maximum connection timeout
+  use_ssh_key: True  # Use SSH key instead of password
