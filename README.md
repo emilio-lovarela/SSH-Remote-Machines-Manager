@@ -35,7 +35,7 @@ Select a machine:
 
    </td>
    <td>
-      <p align="center"> <img src="https://github.com/emilio-lovarela/SSH-Remote-Machines-Manager/blob/main/SSH_Remote_Manager_Example.png?raw=true" alt="screenshot" width="600"></p>
+      <p align="center"> <img src="https://github.com/emilio-lovarela/SSH-Remote-Machines-Manager/blob/main/SSH_Remote_Manager_Example.png?raw=true" alt="screenshot" width="500"></p>
    </td>
 </tr>
 </table>
