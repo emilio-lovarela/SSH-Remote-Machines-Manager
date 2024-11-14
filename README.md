@@ -88,6 +88,27 @@ Before using this script, you need to install the following dependencies:
      script_windows_wsl_users/connect_to_machines.bat
      ```
 
+
+### Recommendation for Easier Access
+
+If you want to run the script from any location in your operating system, you can add a shortcut to simplify access:
+
+- **On Ubuntu**: Add an alias in your `.bashrc` file by including the following line at the end. This will allow you to run the script using `connect_to_machines` from any terminal:
+
+  ```bash
+  alias connect_to_machines='~/<Path_to_file>/connect_to_machines.sh'
+  ```
+ 
+  Replace `<Path_to_file>` with the actual path to the script. For example, if the script is in your home directory under `scripts`, the alias would look like:
+  ```bash
+  alias connect_to_machines='~/scripts/connect_to_machines.sh'
+  ```
+
+- **On Windows**: Add the folder `script_windows_wsl_users` to your Windows **PATH**. This will enable you to run the script by typing `connect_to_machines` directly into the Command Prompt or PowerShell. Make sure you execute the `.bat` file for Windows compatibility.
+
+  To add a folder to the Windows PATH, you can follow this tutorial: [How to Edit Your System PATH for Easy Command Line Access](https://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/)
+ 
+
 ## Default Configuration Example - `config.yaml`
 
 Here’s the default configuration file. You will need to modify this file to match your machines and their details:
