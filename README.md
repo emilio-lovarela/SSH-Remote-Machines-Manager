@@ -2,7 +2,7 @@
 
 This script streamlines the process of connecting to multiple remote machines via SSH using an easily configurable `config.yaml` file. It automates SSH key management, supports ProxyJumps, and includes options for both Ubuntu (Bash) and Windows (WSL) environments.
 
-- **Quick Setup**: Easily configure multiple remote machines in `config.yaml`, specifying details like IP, user, and machine characteristics (e.g., VRAM, CPU).
+- **Quick Setup**: Easily configure multiple remote machines in `config.yaml`, specifying details like IP, user and machine characteristics (e.g., VRAM, CPU).
 - **SSH Key Management**: Automatically generate, configure, and copy SSH keys to remote servers for passwordless access.
 - **ProxyJump Support**: Seamlessly connect to remote machines via intermediate (proxy) servers.
 - **Cross-Platform Compatibility**: Works on Ubuntu with Bash and Windows via WSL, enabling SSH keys to function directly with Windows applications (e.g., VSCode).
@@ -35,7 +35,11 @@ Select a machine:
 
    </td>
    <td>
-      <p align="center"> <img src="https://github.com/emilio-lovarela/SSH-Remote-Machines-Manager/blob/main/SSH_Remote_Manager_Example.png?raw=true" alt="screenshot" style="width: 100%; max-width: 600px;"></p>
+      <p align="center">
+       <img src="https://github.com/emilio-lovarela/SSH-Remote-Machines-Manager/blob/main/SSH_Remote_Manager_Example.png?raw=true" 
+         alt="screenshot"
+         style="width: 100%; max-width: 600px; min-width: 300px;">
+      </p>
    </td>
 </tr>
 </table>
